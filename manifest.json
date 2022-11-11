@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "JWT Copy",
+  "description": "Automatically copy JWTs from one origin to another",
+  "version": "1.0",
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png"
+    }
+  },
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "contentSettings",
+    "cookies",
+    "tabs"
+  ],
+  "host_permissions":[ "*://*/*" ]
+}
