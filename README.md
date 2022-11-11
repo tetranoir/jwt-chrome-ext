@@ -1,5 +1,7 @@
 # jwt-chrome-ext
 
+Copies JWT token from your current page to any open localhost tabs.
+
 ## Install instructions
 
 1. Open the Extension Management page by navigating to chrome://extensions.
