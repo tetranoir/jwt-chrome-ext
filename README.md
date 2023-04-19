@@ -1,6 +1,6 @@
 # jwt-chrome-ext
 
-Copies JWT token from your current page to any open localhost tabs.
+Copies the JWT from your current page to any open localhost tabs.
 
 ## Install instructions
 
